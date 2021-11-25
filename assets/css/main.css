@@ -146,13 +146,13 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 3em;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 2em;
 		line-height: 1.5em;
 	}
 
@@ -162,7 +162,7 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 2.5em;
 		line-height: 1.5em;
 	}
 
@@ -2160,13 +2160,13 @@ input, select, textarea {
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
-		margin-top: -1em;
+		font-size: 1.5em;
+		margin-top: +1em;
 		line-height: 1.75em;
 	}
 
 	header h3 + p {
-		font-size: 1.1em;
+		font-size: 2em;
 		margin-top: -0.8em;
 		line-height: 1.75em;
 	}
@@ -2226,7 +2226,7 @@ input, select, textarea {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
+		appearance: no
 		-moz-transition: border-color 0.2s ease-in-out;
 		-webkit-transition: border-color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out;
@@ -2510,24 +2510,10 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 4px;
 		border: 0;
 		display: inline-block;
 		position: relative;
-		overflow: hidden;
 	}
-
-		.image:before {
-			content: '';
-			display: block;
-			position: absolute;
-			left: 0;
-			top: 0;
-			background-image: url("images/overlay.png");
-			width: 100%;
-			height: 100%;
-			z-index: 1;
-		}
 
 		.image img {
 			border-radius: 4px;
@@ -3453,8 +3439,8 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: fixed;
-		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-color: #4350e0;
+		background-image: url("../../images/lidar_car.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3473,10 +3459,10 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.97), rgba(23, 24, 32, 0.97)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.97), rgba(23, 24, 32, 0.97)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.97), rgba(23, 24, 32, 0.97)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.97), rgba(23, 24, 32, 0.97)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3490,7 +3476,7 @@ input, select, textarea {
 			display: inline-block;
 			margin-right: 1%;
 			max-width: 95%;
-			padding: 6em;
+			padding: 4em;
 			position: relative;
 			text-align: right;
 			vertical-align: middle;
@@ -3503,7 +3489,7 @@ input, select, textarea {
 			}
 
 				#banner .content header h2 {
-					font-size: 2.5em;
+					font-size: 3.5em;
 					margin: 0;
 				}
 
@@ -3535,7 +3521,7 @@ input, select, textarea {
 
 	#footer {
 		background: #272833;
-		padding: 6em 0;
+		padding: 2em 0;
 		text-align: center;
 	}
 
@@ -3565,7 +3551,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			line-height: 1em;
-			margin: 2em 0 0 0;
+			margin: 1em 0 0 0;
 			padding: 0;
 			text-align: center;
 		}
@@ -3764,14 +3750,22 @@ input, select, textarea {
 			}
 
 			h2 {
-				font-size: 1.5em;
+				font-size: 3.5em;
 			}
 
 			h3 {
-				font-size: 1.2em;
+				font-size: 2.5em;
 			}
 
 			h4 {
+				font-size: 1.5em;
+			}
+
+			h5 {
+				font-size: 1.2em;
+			}
+
+			h6 {
 				font-size: 1em;
 			}
 
@@ -3782,17 +3776,17 @@ input, select, textarea {
 			}
 
 			header h2 + p {
-				font-size: 1em;
+				font-size: 3.5em;
 			}
 
 			header h3 + p {
-				font-size: 1em;
+				font-size: 2em;
 			}
 
 			header h4 + p,
 			header h5 + p,
 			header h6 + p {
-				font-size: 0.9em;
+				font-size: 1em;
 			}
 
 			header.major {
@@ -3850,7 +3844,7 @@ input, select, textarea {
 				}
 
 					#banner .content header h2 {
-						font-size: 1.5em;
+						font-size: 3.5em;
 					}
 
 					#banner .content .image {
